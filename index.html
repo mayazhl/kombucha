@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>KOMBUCHA PROJECT</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+
+    <!-- Header and Navbar -->
+
+    <section class="header">
+      <nav>
+        <a class="logo" href="index.html"> <b> MIGHTY </b></br> BOOCH </br> </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="products.html">PRODUCT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    </section>
+
+    <!-- Text Section -->
+    
+   <section class="block">
+     <div class="text-box">
+      <h4>“Improve your gut health </br> with this fermented lower-sugar beverage </br> that’s packed with probiotics.”</h4>
+      <a href="about.html" class="about-btn">ABOUT US</a>
+     </div>
+   </section> 
+   
+
+    <!-- Product Section -->
+
+    <section class="flavor">
+      <div class="row">
+        <div class="flavor-col">
+          <img src="images/flavor.jpg" alt="flavor" />
+          <h3>SPICY GINGER</h3>
+          <p>
+            Edit this text to make it your own. To edit, simply click directly
+            on the text and start typing.
+          </p>
+          <a href="products.html" class="shop-btn">SHOP KOMBUCHA</a>
+        </div>
+        <div class="flavor-col">
+          <img src="images/flavor.jpg" alt="flavor" />
+          <h3>PINK PASSION</h3>
+          <p>
+            Edit this text to make it your own. To edit, simply click directly
+            on the text and start typing.
+          </p>
+          <a href="products.html" class="shop-btn">SHOP KOMBUCHA</a>
+        </div>
+        <div class="flavor-col">
+          <img src="images/flavor.jpg" alt="flavor" />
+          <h3>SUPER BERRY</h3>
+          <p>
+            Edit this text to make it your own. To edit, simply click directly
+            on the text and start typing.
+          </p>
+          <a href="products.html" class="shop-btn">SHOP KOMBUCHA</a>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Contact Call To Action -->
+    <section class="cta">
+      <h1>ALL NATURAL. </br> ALL FRUIT.</h1>
+      <a href="contact.html" class="hero-btn">CONTACT US</a>
+
+    </section>
+
+    <!-- Footer -->
+   <section class="footer">
+     <h4>© 2022 MightyBooch™. All rights reserved.</h4>
+     <p>Made with  <i class="fa fa-heart-o"></i>  by Maia ZHL</p>
+
+     <div class="icons">
+       <i class="fa fa-facebook"></i>
+       <i class="fa fa-instagram"></i>
+       <i class="fa fa-linkedin"></i>
+     </div>
+   </section>
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
+
